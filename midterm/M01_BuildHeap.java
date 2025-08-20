@@ -63,7 +63,7 @@ public class M01_BuildHeap {
         scanner.close();
     }
 }
-//時間複雜度：
+//Time Complexity: O(n)
 //高度為 h 的點最多有 n/2^(h+1) 個
 //每個高度为為h的點最多需要 h 次操作
 //O(n)

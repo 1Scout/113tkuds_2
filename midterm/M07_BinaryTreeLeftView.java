@@ -123,7 +123,7 @@ public class M07_BinaryTreeLeftView {
         scanner.close();
     }
 }
-//時間複雜度分析：
+//Time Complexity: O(n
 //建樹階段：O(n)
 //遍歷輸入：O(n)
 //每個節點創建：O(1)

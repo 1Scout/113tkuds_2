@@ -39,7 +39,7 @@ public class M05_GCD_LCM_Recursive {
     }
 }
 
-//時間複雜度:
+//Time Complexity: O(log(min(a,b)))
 //歐幾里得演算法的時間複雜度：O(log(min(a,b)))
 //證明：每次遞迴，最大數至少减半
 //如果 a >= b，則 gcd(a,b) = gcd(b, a%b)

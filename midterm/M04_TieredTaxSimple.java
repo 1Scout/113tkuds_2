@@ -83,7 +83,7 @@ public class M04_TieredTaxSimple {
         scanner.close();
     }
 }
-//時間複雜度分析：
+//Time Complexity: O(n)
 //calculateTax：O(1)
 //處理n個收入：O(n × 1) = O(n)
 //計算平均：O(1)

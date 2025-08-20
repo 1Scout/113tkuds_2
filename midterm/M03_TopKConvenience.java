@@ -80,6 +80,7 @@ public class M03_TopKConvenience {
         return products.subList(0, Math.min(k, products.size()));
     }
 }
+//Time Complexity: O(n log n)
 //使用Min-Heap（K << n）：
 //建立大小為K的Min-Heap：O(K)
 //處理商品：O(n * log K)

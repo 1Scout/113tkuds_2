@@ -60,7 +60,7 @@ public class M06_PalindromeClean {
         scanner.close();
     }
 }
-//時間複雜度：
+//Time Complexity: O(n)
 //雙指標直接判斷：
 //最多遍歷字符串一次
 //每个字符最多被檢查常數次
